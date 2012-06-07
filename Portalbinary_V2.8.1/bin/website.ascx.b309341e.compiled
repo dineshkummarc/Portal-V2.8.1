@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/WebSite/website.ascx" hash="fffffff168ffe8bc" filehash="ffffe3987c547d0d" flags="110000" assembly="Portal" type="ASP.modules_website_website_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/WebSite/website.ascx" />
+  </filedeps>
+</preserve>

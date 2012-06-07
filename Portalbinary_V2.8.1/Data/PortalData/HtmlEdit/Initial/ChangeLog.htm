@@ -1,0 +1,142 @@
+<p><strong>(2.8.1) Release 2.8.1 <br />
+</strong>- Improve stability of the statistics background threads.</p>
+<p><p><strong>(2.8.0) Release 2.8<br />
+</strong>- Enhanced picture creation for thumbnails and preview in the module ImageBrowser (Optimized resizing quality and speed).<br />
+- Configuration of the JPG compression Level in Module ImageBrowser.<br />
+- Resolved wrong default folder image location in module ImageBrowser.<br />
+- Resolved cache update bug in module ContentScheduler.<br />
+- Improved error handling for statistics background thread. This Bug could avoid the start of the Portal on some servers or even causes IIS-Application pool crash.<br />
+- Possibility to customize the CSS-File for the HTML Edit Mode. (File Data\Resources\PortalEdit.css).<br />
+- Possibility to suppress the module hierarchy (Module Path) on SubTabs. (Key &quot;ShowSubTabPath&quot; in the settings.config).<br />
+- Update to FCKeditor V2.6.3</p></p>
+<p><strong>(2.7.1) Release 2.7.1</strong><br />
+- Fixed File Connector Bug. Could not proper resolve the image url in HTML Edition modules. (Release 2.7 Bug)<br />
+- Enhanced ContentScheduler Module: Direct link from the overview to the edit page.</p>
+<p><strong>(2.6.0) Release 2.6</strong><br />
+- Bot / Spider filtering functionality for the statistic. (Search engine Bot and Spider requests are not logged in the statistic anymore). <br />
+- Implemented Preload mechanism to load pictures in advance into the browser cache (ImageBrowser). <br />
+- Fixed the Login-Module default-Button bug. (Key &quot;return&quot; did not work on some browsers). <br />
+- Filebrowser takes the modification date from the file, if not explicit specified.<br />
+- FCKeditor updated to version 2.5 <br />
+- Project updated to Visual Studio 2008 (still .NET 2.0) <br />
+- New development project structure &nbsp;</p>
+<p><strong>(2.5.0) Release 2.5</strong><br />
+- Possibility to add delimiters between tabs (Portal.css: #TabMenuDelimiterHor)<br />
+- Improved error handling for statistics, when access to directory is denied. This Bug could avoid the start of the&nbsp;Portal on some servers.<br />
+- ContentScheduler: Direct link from the preview to the edit mode added.<br />
+- Newsticker: Asynchronous data loading for mobile clients disabled.<br />
+- Server Information: Error handling added, when not supported by the server.<br />
+- Replaced the navigation images of the Image Browser with language independent samples.</p>
+<p><strong>(2.4.0) Release 2.4</strong>&nbsp;<br />
+- New Module &quot;FormBuilder&quot;, a module that provides the ability to build your own Web-Forms that will be submitted <br />
+&nbsp;&nbsp; by email. You can configure your own email layout and the data validation rules.<br />
+&nbsp;- Improved statistics visit detection.</p>
+<p><strong>(2.3.0) Release 2.3</strong><br />
+&nbsp;- New Module &quot;ContentScheduler&quot;, a Module that switches the content based on your defined schedule<br />
+&nbsp;- Meta tags are configurable in the data\portaldata\settings.config<br />
+&nbsp;- FileBrowser supports translation in different languages<br />
+&nbsp;- Inplace Mode for module HtmlEdit<br />
+&nbsp;- Changed Mainpage from RenderTable.aspx to default.aspx<br />
+&nbsp;- Removed Portal Type &quot;Frame&quot;<br />
+&nbsp;- Browser Cache prevention is now configurable in the settings.config<br />
+&nbsp;- Added Version information in version.aspx</p>
+<p><strong>(2.2.0) Release 2.2</strong>&nbsp;<br />
+&nbsp;- Bug in ImageBrowser with images that are smaller than the preview image size.<br />
+&nbsp;- Small performance improvements in ImageBrowser.<br />
+&nbsp;- Some basic statistic data recording mehtods implemented (more will follow).<br />
+&nbsp;- New module StatisticViewer implemented.</p>
+<p><strong>(2.1.0) Release 2.1&nbsp;</strong>&nbsp;<br />
+&nbsp;- FCKeditor updated to version 2.4&nbsp;&nbsp;<br />
+&nbsp;- Location of the cascading style sheet (CSS) can be defined in settings.config <br />
+&nbsp;- Default CSS moved to the data directory for easy update and backup purpose. </p>
+<p><strong>(2.0.1) Bugfix for Release 2.0&nbsp;</strong>&nbsp;<br />
+<br />
+- HitCounter was not working. This is fixed now. <br />
+&nbsp;- FileBrowser sets MIME type when downloading a file. </p>
+<p><strong>(2.0.0)&nbsp;Release 2.0</strong><br />
+&nbsp;- Portal updated for ASP.NET 2.0<br />
+&nbsp;- All configuration data and userdata in a configurable directory.<br />
+&nbsp;- Several bugfixes in Portal API<br />
+&nbsp;- Security leak in tab editor fixed<br />
+&nbsp;- Tab representation with a images possible.<br />
+&nbsp;- Use typed datasets for module data (not module configuration)<br />
+&nbsp;- Added caching for XML based Forum, Guestbook and Newsticker<br />
+&nbsp;- Title of the portal (displayed in title list) is now configurable in web.config<br />
+&nbsp;- FavIcon is now configuratble in web.config<br />
+&nbsp;- New Features in Module ImageBrowser (Better navigation, shadows...)<br />
+&nbsp;- If requested RSS-feed in Newsticker is not in cache, it will be loaded asynchronous to the requesting client.<br />
+&nbsp;- New module FileBrowser (German Alpha Release)<br />
+&nbsp;- New Version FckEditor 2.3.2 in Module HtmlEdit.<br />
+&nbsp;- Compatibility bugs with the Webmatrix and Windows XP home.<br />
+&nbsp;- Browser compatibility improved.<br />
+&nbsp;- Keep session alive as long as portal page is displayed (configurable in web.config)<br />
+&nbsp;- XML based forum added<br />
+&nbsp;- My User module added to let a user edit his password and email<br />
+&nbsp;- ...<br />
+&nbsp;&nbsp;</p>
+<p><strong>(1.1.0) Release 1.1</strong><br />
+&nbsp;- Added Caching Support<br />
+&nbsp;- Bugfixes in Tab Editing<br />
+&nbsp;- TabTree Module added<br />
+&nbsp;- SubTabs in TabMenu added (switch with web.config key)<br />
+&nbsp;- Feedback Module added<br />
+&nbsp;- Mail Module added<br />
+&nbsp;- Multilanguage Support added<br />
+&nbsp;- Guestbook Module added <br />
+&nbsp;- Newsticker Module added <br />
+&nbsp;- ServerInformation Module added <br />
+&nbsp;- BrowserInformation Module added<br />
+&nbsp;- QuickLinks: Open Link in a new Window<br />
+&nbsp;- If there are no middle Modules the width of left and right Modules is 49% now<br />
+&nbsp;- HtmlEdit: Use FCKeditor to edit html files<br />
+&nbsp;- Installs files automatically<br />
+&nbsp;- Message Control added<br />
+&nbsp;- Check for Script Tags added<br />
+&nbsp;<br />
+<strong>(1.0.2) Beta 2</strong><br />
+&nbsp;- Forum<br />
+&nbsp;- TabHttpHandler supports now URL Parameter</p>
+<p><strong>(1.0.1) Beta 1</strong><br />
+&nbsp;- Exeption Message: More Informations<br />
+&nbsp;- throws Exceptions in DEBUG Mode<br />
+&nbsp;- HasEditRight Property in Module<br />
+&nbsp;- HtmlEdit Module - like the Html Module but with a Editor<br />
+&nbsp;- BuildURL Method<br />
+&nbsp;- Edit Portal Definition inplace (on the Tabs)</p>
+<p><strong>(1.0) First Release</strong><br />
+&nbsp;- Hit Counter Module<br />
+&nbsp;- Validators in EditModule.ascx<br />
+&nbsp;- ModuleFailed.ascx added<br />
+&nbsp;- TabHttpHandler added<br />
+&nbsp;- XSD Schema added to Module Config<br />
+&nbsp;- News Module added<br />
+&nbsp;- UrlReferrer logging<br />
+&nbsp;- TabPath added</p>
+<p><strong>(0.6) Beta 2</strong><br />
+&nbsp;- Configuration Files renamed to .config<br />
+&nbsp;- ImageBrowser Module added and adapted (http://www.codeproject.com/useritems/ImageBrowser.asp)<br />
+&nbsp;- QuickLinks Module added<br />
+&nbsp;- Design/Lock and Feel improved<br />
+&nbsp;- &quot;Make Installer&quot; Batch files<br />
+&nbsp;- Portal.API Assembly created (there where problems with referencing Web-Applications)<br />
+&nbsp;- Read/Write Configuration Support for Modules</p>
+<p><strong>(0.5) Beta 1 (Bug Fix)</strong><br />
+&nbsp;- Fixed a bug in the HTML Edit Module. &quot;The File could not be created.&quot;</p>
+<p><strong>(0.4) Beta 1</strong><br />
+&nbsp;- Admin Pages<br />
+&nbsp;- WebSite Module added<br />
+&nbsp;- TabList Module added<br />
+&nbsp;- Table Module added</p>
+<p><strong>(0.3)</strong> <br />
+&nbsp;- Usereditor, Roleeditor<br />
+&nbsp;<br />
+<strong>(0.2)</strong><br />
+&nbsp;- Security (Rolebased security added)<br />
+&nbsp;- CSS</p>
+<p>(<strong>Preview) Initial Version</strong><br />
+&nbsp;- Render Table/Frames<br />
+&nbsp;- Edit Modules<br />
+&nbsp;- HTML Sample Module</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

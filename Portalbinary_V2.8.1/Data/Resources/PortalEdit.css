@@ -1,0 +1,9 @@
+@import url("Portal.css"); 
+/* Override the "BODY" Tag with the properties for the ".Module", because the editor uses the "BODY" Tag instead of the ".Module" */
+BODY
+{
+	background-color: #F0F0F0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}

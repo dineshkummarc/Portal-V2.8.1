@@ -1,0 +1,63 @@
+<xs:schema id="Users" targetNamespace="http://tempuri.org/Users.xsd" xmlns:mstns="http://tempuri.org/Users.xsd" xmlns="http://tempuri.org/Users.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified" msdata:schemafragmentcount="2">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Users" msdata:IsDataSet="true" msdata:Locale="en-US" msdata:EnforceConstraints="False" msprop:Generator_UserDSName="Users" msprop:Generator_DataSetName="Users">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="User" msprop:Generator_UserTableName="User" msprop:Generator_RowDeletedName="UserRowDeleted" msprop:Generator_RowChangedName="UserRowChanged" msprop:Generator_RowClassName="UserRow" msprop:Generator_RowChangingName="UserRowChanging" msprop:Generator_RowEvArgName="UserRowChangeEvent" msprop:Generator_RowEvHandlerName="UserRowChangeEventHandler" msprop:Generator_TableClassName="UserDataTable" msprop:Generator_TableVarName="tableUser" msprop:Generator_RowDeletingName="UserRowDeleting" msprop:Generator_TablePropName="User">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="login" msprop:Generator_UserColumnName="login" msprop:Generator_ColumnPropNameInRow="login" msprop:Generator_ColumnVarNameInTable="columnlogin" msprop:Generator_ColumnPropNameInTable="loginColumn" type="xs:string" />
+              <xs:element name="password" msprop:Generator_UserColumnName="password" msprop:Generator_ColumnPropNameInRow="password" msprop:Generator_ColumnVarNameInTable="columnpassword" msprop:Generator_ColumnPropNameInTable="passwordColumn" type="xs:string" />
+              <xs:element name="firstName" msprop:Generator_UserColumnName="firstName" msprop:Generator_ColumnPropNameInRow="firstName" msprop:Generator_ColumnVarNameInTable="columnfirstName" msprop:Generator_ColumnPropNameInTable="firstNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="surName" msprop:Generator_UserColumnName="surName" msprop:Generator_ColumnPropNameInRow="surName" msprop:Generator_ColumnVarNameInTable="columnsurName" msprop:Generator_ColumnPropNameInTable="surNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="email" msprop:Generator_UserColumnName="email" msprop:Generator_ColumnPropNameInRow="email" msprop:Generator_ColumnVarNameInTable="columnemail" msprop:Generator_ColumnPropNameInTable="emailColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="id" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInTable="idColumn" type="xs:string" />
+              <xs:element name="UserRole" msprop:Generator_UserTableName="UserRole" msprop:Generator_RowDeletedName="UserRoleRowDeleted" msprop:Generator_RowChangedName="UserRoleRowChanged" msprop:Generator_RowClassName="UserRoleRow" msprop:Generator_RowChangingName="UserRoleRowChanging" msprop:Generator_RowEvArgName="UserRoleRowChangeEvent" msprop:Generator_RowEvHandlerName="UserRoleRowChangeEventHandler" msprop:Generator_TableClassName="UserRoleDataTable" msprop:Generator_TableVarName="tableUserRole" msprop:Generator_RowDeletingName="UserRoleRowDeleting" msprop:Generator_TablePropName="UserRole" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="name" form="unqualified" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInTable="nameColumn" type="xs:string" />
+                  <xs:attribute name="login" msprop:Generator_UserColumnName="login" msprop:Generator_ColumnPropNameInRow="login" msprop:Generator_ColumnVarNameInTable="columnlogin" msprop:Generator_ColumnPropNameInTable="loginColumn" type="xs:string" use="prohibited" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Role" msprop:Generator_UserTableName="Role" msprop:Generator_RowDeletedName="RoleRowDeleted" msprop:Generator_RowChangedName="RoleRowChanged" msprop:Generator_RowClassName="RoleRow" msprop:Generator_RowChangingName="RoleRowChanging" msprop:Generator_RowEvArgName="RoleRowChangeEvent" msprop:Generator_RowEvHandlerName="RoleRowChangeEventHandler" msprop:Generator_TableClassName="RoleDataTable" msprop:Generator_TableVarName="tableRole" msprop:Generator_RowDeletingName="RoleRowDeleting" msprop:Generator_TablePropName="Role">
+          <xs:complexType>
+            <xs:attribute name="name" form="unqualified" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInTable="nameColumn" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="User_login" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:User" />
+      <xs:field xpath="mstns:login" />
+    </xs:unique>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:User" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="Role_login" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Role" />
+      <xs:field xpath="@name" />
+    </xs:unique>
+    <xs:keyref name="RoleUserRole" refer="Role_login" msprop:rel_Generator_UserRelationName="RoleUserRole" msprop:rel_Generator_RelationVarName="relationRoleUserRole" msprop:rel_Generator_UserChildTable="UserRole" msprop:rel_Generator_UserParentTable="Role" msprop:rel_Generator_ParentPropName="RoleRow" msprop:rel_Generator_ChildPropName="GetUserRoleRows" msdata:AcceptRejectRule="Cascade">
+      <xs:selector xpath=".//mstns:UserRole" />
+      <xs:field xpath="@name" />
+    </xs:keyref>
+    <xs:keyref name="User_UserRole" refer="User_login" msdata:IsNested="true" msprop:rel_Generator_UserRelationName="User_UserRole" msprop:rel_Generator_RelationVarName="relationUser_UserRole" msprop:rel_Generator_UserChildTable="UserRole" msprop:rel_Generator_UserParentTable="User" msprop:rel_Generator_ParentPropName="UserRow" msprop:rel_Generator_ChildPropName="GetUserRoleRows">
+      <xs:selector xpath=".//mstns:UserRole" />
+      <xs:field xpath="@mstns:login" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

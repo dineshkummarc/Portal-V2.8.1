@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/AdminUsers/adminusers.ascx" hash="fffffff168ffe8bc" filehash="212ab9fcca010dac" flags="110000" assembly="Portal" type="ASP.modules_adminusers_adminusers_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/AdminUsers/adminusers.ascx" />
+    <filedep name="/Portal/Modules/AdminUsers/AdminUsers.ascx.cs" />
+    <filedep name="/Portal/Modules/AdminUsers/useredit.ascx" />
+    <filedep name="/Portal/Modules/AdminUsers/UserEdit.ascx.cs" />
+    <filedep name="/Portal/Modules/AdminUsers/userlist.ascx" />
+    <filedep name="/Portal/Modules/AdminUsers/UserList.ascx.cs" />
+  </filedeps>
+</preserve>

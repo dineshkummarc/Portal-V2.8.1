@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Download.aspx" hash="fffffff168ffe8bc" filehash="dec6266c87a472ae" flags="110000" assembly="Portal" type="ASP.download_aspx">
+  <filedeps>
+    <filedep name="/Portal/Download.aspx" />
+    <filedep name="/Portal/Download.aspx.cs" />
+  </filedeps>
+</preserve>

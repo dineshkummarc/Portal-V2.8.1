@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/News/news.ascx" hash="fffffff168ffe8bc" filehash="ffffe9c672e6acfe" flags="110000" assembly="Portal" type="ASP.modules_news_news_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/News/news.ascx" />
+  </filedeps>
+</preserve>

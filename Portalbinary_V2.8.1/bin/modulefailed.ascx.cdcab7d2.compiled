@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/ModuleFailed.ascx" hash="fffffff168ffe8bc" filehash="8d9a0d93a23309dc" flags="110000" assembly="Portal" type="ASP.modulefailed_ascx">
+  <filedeps>
+    <filedep name="/Portal/ModuleFailed.ascx" />
+    <filedep name="/Portal/ModuleFailed.ascx.cs" />
+  </filedeps>
+</preserve>

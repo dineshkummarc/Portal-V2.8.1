@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FileBrowserStatistic" targetNamespace="http://tempuri.org/FileBrowser/Statistic.xsd" xmlns:mstns="http://tempuri.org/FileBrowser/Statistic.xsd" xmlns="http://tempuri.org/FileBrowser/Statistic.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FileBrowserStatistic" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Downloads">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="File" type="xs:string" />
+              <xs:element name="NumOfDownloads" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="LastDownload" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Downloads" />
+      <xs:field xpath="mstns:File" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

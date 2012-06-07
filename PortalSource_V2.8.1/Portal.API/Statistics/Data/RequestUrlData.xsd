@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RequestUrlData" targetNamespace="http://tempuri.org/RequestUrlData.xsd" xmlns:mstns="http://tempuri.org/RequestUrlData.xsd" xmlns="http://tempuri.org/RequestUrlData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RequestUrlData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RequestUrlData" msprop:Generator_DataSetName="RequestUrlData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TRequestUrl" msprop:Generator_UserTableName="TRequestUrl" msprop:Generator_RowDeletedName="TRequestUrlRowDeleted" msprop:Generator_TableClassName="TRequestUrlDataTable" msprop:Generator_RowChangedName="TRequestUrlRowChanged" msprop:Generator_RowClassName="TRequestUrlRow" msprop:Generator_RowChangingName="TRequestUrlRowChanging" msprop:Generator_RowEvArgName="TRequestUrlRowChangeEvent" msprop:Generator_RowEvHandlerName="TRequestUrlRowChangeEventHandler" msprop:Generator_TablePropName="TRequestUrl" msprop:Generator_TableVarName="tableTRequestUrl" msprop:Generator_RowDeletingName="TRequestUrlRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Url" msprop:Generator_UserColumnName="Url" msprop:Generator_ColumnPropNameInRow="Url" msprop:Generator_ColumnVarNameInTable="columnUrl" msprop:Generator_ColumnPropNameInTable="UrlColumn" type="xs:string" />
+              <xs:element name="RequestCount" msprop:Generator_UserColumnName="RequestCount" msprop:Generator_ColumnPropNameInRow="RequestCount" msprop:Generator_ColumnVarNameInTable="columnRequestCount" msprop:Generator_ColumnPropNameInTable="RequestCountColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:TRequestUrl" />
+      <xs:field xpath="mstns:Url" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

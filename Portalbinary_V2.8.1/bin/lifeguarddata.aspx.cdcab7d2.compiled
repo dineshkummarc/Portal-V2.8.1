@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/LifeguardData.aspx" hash="fffffff168ffe8bc" filehash="3b9c21cd2fae" flags="110000" assembly="Portal" type="ASP.lifeguarddata_aspx">
+  <filedeps>
+    <filedep name="/Portal/LifeguardData.aspx" />
+  </filedeps>
+</preserve>

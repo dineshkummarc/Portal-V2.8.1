@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/Table/edittable.ascx" hash="fffffff168ffe8bc" filehash="fffff4f717956920" flags="110000" assembly="Portal" type="ASP.modules_table_edittable_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/Table/edittable.ascx" />
+  </filedeps>
+</preserve>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/AdminPortal/modulelist.ascx" hash="fffffff168ffe8bc" filehash="a1fee9aec8fdf7d8" flags="110000" assembly="Portal" type="ASP.modules_adminportal_modulelist_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/AdminPortal/modulelist.ascx" />
+    <filedep name="/Portal/Modules/AdminPortal/ModuleList.ascx.cs" />
+  </filedeps>
+</preserve>

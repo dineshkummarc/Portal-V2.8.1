@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/TabPath.ascx" hash="fffffff168ffe8bc" filehash="f5c0850da5fc25e5" flags="110000" assembly="Portal" type="ASP.tabpath_ascx">
+  <filedeps>
+    <filedep name="/Portal/TabPath.ascx" />
+    <filedep name="/Portal/TabPath.ascx.cs" />
+  </filedeps>
+</preserve>

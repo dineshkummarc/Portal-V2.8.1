@@ -1,0 +1,1159 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TreeWebControl</name>
+    </assembly>
+    <members>
+        <member name="T:iiuga.Web.UI.ElementsCollection">
+            <summary>
+            ElementsCollection class.
+            
+            Copyright © Iulian Iuga, 2003. All Rights Reserved.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.#ctor(iiuga.Web.UI.TreeElement)">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.GetEnumerator">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.CopyTo(System.Array,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="array"></param>
+            <param name="index"></param>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.Add(iiuga.Web.UI.TreeElement)">
+            <summary>
+            
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.Add(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.AddAt(System.Int32,iiuga.Web.UI.TreeElement)">
+            <summary>
+            
+            </summary>
+            <param name="index"></param>
+            <param name="element"></param>
+            <returns></returns>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.AddAt(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="index"></param>
+            <param name="text"></param>
+            <returns></returns>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.IndexOf(iiuga.Web.UI.TreeElement)">
+            <summary>
+            
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.Remove(iiuga.Web.UI.TreeElement)">
+            <summary>
+            
+            </summary>
+            <param name="element"></param>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.RemoveAt(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="index"></param>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.Clear">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.System#Web#UI#IStateManager#SaveViewState">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+            <author>
+            Created by Iulian Iuga; 11 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.System#Web#UI#IStateManager#LoadViewState(System.Object)">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 11 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.System#Web#UI#IStateManager#TrackViewState">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 11 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementsCollection.ConfigureNewElement(iiuga.Web.UI.TreeElement)">
+            <summary>
+            Configure internaly the required properties for a new tree element.
+            </summary>
+            <param name="element"></param>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.ElementsCollection.Count">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.ElementsCollection.IsSynchronized">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.ElementsCollection.SyncRoot">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.ElementsCollection.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.ElementsCollection.System#Web#UI#IStateManager#IsTrackingViewState">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 11 January, 2003
+            </author>
+        </member>
+        <member name="T:iiuga.Web.UI.TreeElementWriter">
+            <summary>
+            TreeElementWriter class
+            
+            Copyright © Iulian Iuga, 2003. All Rights Reserved.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 04 January, 2003
+            </author>
+        </member>
+        <member name="T:iiuga.Web.UI.ITreeElementWriter">
+            <summary>
+            ITreeElementWriter interface declaration. All the objects which want to implement
+            a writer class for the TreeElement should inherit from this interface.
+            
+            Copyright © Iulian Iuga, 2003. All Rights Reserved.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 04 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ITreeElementWriter.RenderElement(System.Web.UI.HtmlTextWriter,iiuga.Web.UI.TreeElement)">
+            <summary>
+            When implemented renders an element inside the tree.
+            </summary>
+            <param name="writer"></param>
+            <param name="element"></param>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElementWriter.RenderElement(System.Web.UI.HtmlTextWriter,iiuga.Web.UI.TreeElement)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+            <param name="element"></param>
+            <author>
+            Created by Iulian Iuga; 04 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElementWriter.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+            <author>
+            Created by Iulian Iuga; 04 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElementWriter.RenderContents(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+            <author>
+            Created by Iulian Iuga; 30 December, 2002
+            </author>		
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElementWriter.RenderChildren(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="T:iiuga.Web.UI.TreeWebWriter">
+            <summary>
+            TreeWebWriter class.
+            
+            Copyright © Iulian Iuga, 2003. All Rights Reserved.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 04 January, 2003
+            </author>
+        </member>
+        <member name="T:iiuga.Web.UI.ITreeWebWriter">
+            <summary>
+            ITreeWebWriter interface declaration. All the objects which want to implement
+            a writer class for the TreeWeb should inherit from this interface.
+            
+            Copyright © Iulian Iuga, 2003. All Rights Reserved.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 04 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ITreeWebWriter.RenderTree(System.Web.UI.HtmlTextWriter,iiuga.Web.UI.TreeWeb)">
+            <summary>
+            When implemented renders the tree.
+            </summary>
+            <param name="writer"></param>
+            <param name="tree"></param>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWebWriter.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWebWriter.RenderTree(System.Web.UI.HtmlTextWriter,iiuga.Web.UI.TreeWeb)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+            <param name="tree"></param>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWebWriter.RenderContents(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWebWriter.RenderChildren(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="T:iiuga.Web.UI.ImagesCollection">
+            <summary>
+            ImagesCollection class.
+            
+            Copyright © Iulian Iuga, 2003. All Rights Reserved.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ImagesCollection.#ctor">
+            <summary>
+            ImagesCollection constructor.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ImagesCollection.System#Web#UI#IStateManager#TrackViewState">
+            <summary>
+            (IStateManager.TrackViewState)
+            Instructs the ImagesCollection to track changes to its view state.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ImagesCollection.System#Web#UI#IStateManager#SaveViewState">
+            <summary>
+            (IStateManager.SaveViewState)
+            Saves the changes of ImagesCollection's view state to an Object.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ImagesCollection.System#Web#UI#IStateManager#LoadViewState(System.Object)">
+            <summary>
+            (IStateManager.LoadViewState)
+            Loads the ImagesCollection's previously saved view state.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ImagesCollection.CopyTo(System.Array,System.Int32)">
+            <summary>
+            Copies all the elements of the current ImagesCollection to the specified 
+            one-dimensional Array starting at the specified destination Array index.
+            </summary>
+            <param name="array"></param>
+            <param name="index"></param>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ImagesCollection.GetEnumerator">
+            <summary>
+            Returns an IEnumerator for the ImagesCollection.
+            </summary>
+            <returns></returns>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ImagesCollection.Add(System.String)">
+            <summary>
+            Add an image to the ImagesCollection.
+            </summary>
+            <param name="imageUrl"></param>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ImagesCollection.Add(iiuga.Web.UI.ElementImage)">
+            <summary>
+            Add an image to the ImagesCollection.
+            </summary>
+            <param name="elementImage"></param>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.ImagesCollection.System#Web#UI#IStateManager#IsTrackingViewState">
+            <summary>
+            (IStateManager.IsTrackingViewState)
+            Gets a value indicating whether the ImagesCollection is tracking its view state changes.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.ImagesCollection.Count">
+            <summary>
+            Gets the number of ElementImage objects from the collection.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.ImagesCollection.IsSynchronized">
+            <summary>
+            Gets a value indicating whether access to the ImagesCollection is synchronized (thread-safe).
+            [This property is always FALSE.]
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.ImagesCollection.SyncRoot">
+            <summary>
+            Gets an object that can be used to synchronize access to the ImagesCollection.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.ImagesCollection.Item(System.Int32)">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="T:iiuga.Web.UI.ElementImage">
+            <summary>
+            ElementImage class.
+            
+            Copyright © Iulian Iuga, 2003. All Rights Reserved.
+            </summary>
+            <author>
+            Created by Iulian Iuga; January 30, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementImage.#ctor">
+            <summary>
+            ElementImage constructor.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 30 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementImage.#ctor(System.String)">
+            <summary>
+            ElementImage constructor.
+            </summary>
+            <param name="imageUrl"></param>
+            <author>
+            Created by Iulian Iuga; 30 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementImage.System#Web#UI#IStateManager#TrackViewState">
+            <summary>
+            (IStateManager.TrackViewState)
+            Instructs the ElementImage to track changes to its view state.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 30 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementImage.System#Web#UI#IStateManager#SaveViewState">
+            <summary>
+            (IStateManager.SaveViewState)
+            Saves the changes of ElementImage's view state to an Object.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 30 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.ElementImage.System#Web#UI#IStateManager#LoadViewState(System.Object)">
+            <summary>
+            (IStateManager.LoadViewState)
+            Loads the ElementImage's previously saved view state.
+            </summary>
+            <param name="state"></param>
+            <author>
+            Created by Iulian Iuga; 30 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.ElementImage.System#Web#UI#IStateManager#IsTrackingViewState">
+            <summary>
+            (IStateManager.IsTrackingViewState)
+            Gets a value indicating whether the ElementImage is tracking its view state changes.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 30 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.ElementImage.ImageUrl">
+            <summary>
+            Gets or sets the location of an image to display in the TreeElement control.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 30 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.ElementImage.ViewState">
+            <summary>
+            Internaly gets the control StateBag object. The StateBag object is case sensitive.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 30 January, 2003
+            </author>
+        </member>
+        <member name="T:iiuga.Web.UI.TreeWebBuilder">
+            <summary>
+            TreeWebBuilder class.
+            
+            Copyright © Iulian Iuga, 2003. All Rights Reserved.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 05 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWebBuilder.GetChildControlType(System.String,System.Collections.IDictionary)">
+            <summary>
+            
+            </summary>
+            <param name="tagName"></param>
+            <param name="attribs"></param>
+            <returns></returns>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWebBuilder.AppendLiteralString(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="T:iiuga.Web.UI.TreeWeb">
+            <summary>
+            TreeWeb class.
+            
+            Copyright © Iulian Iuga, 2003. All Rights Reserved.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.#ctor">
+            <summary>
+            TreeWeb constructor
+            </summary>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.RaisePostBackEvent(System.String)">
+            <summary>
+            (IPostBackEventHandler.RaisePostBackEvent)
+            Raise control specific events on post back. 
+            </summary>
+            <param name="eventArgument"></param>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.LoadXML(System.String)">
+            <summary>
+            Loads the tree structure from a XML file. [Not Implemented]
+            </summary>
+            <param name="xmlPath"></param>
+            <author>
+            Created by Iulian Iuga; 05 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.LoadXML(System.Xml.XmlReader)">
+            <summary>
+            Loads the tree structure from a XML structure. [Not Implemented]
+            </summary>
+            <param name="xmlReader"></param>
+            <author>
+            Created by Iulian Iuga; 05 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.SaveXML(System.String)">
+            <summary>
+            Saves the structure of the tree in a XML file. [Not Implemented]
+            </summary>
+            <param name="xmlPath"></param>
+            <author>
+            Created by Iulian Iuga; 05 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.SaveXML(System.Xml.XmlWriter)">
+            <summary>
+            Saves the structure of the tree in a XML structure. [Not Implemented]
+            </summary>
+            <param name="xmlWriter"></param>
+            <author>
+            Created by Iulian Iuga; 05 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.OnExpand(iiuga.Web.UI.TreeWeb.TreeWebEventArgs)">
+            <summary>
+            OnExpand
+            </summary>
+            <param name="e"></param>
+            <author>
+            Created by Iulian Iuga; 23 February, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.OnCollapse(iiuga.Web.UI.TreeWeb.TreeWebEventArgs)">
+            <summary>
+            OnCollapse
+            </summary>
+            <param name="e"></param>
+            <author>
+            Created by Iulian Iuga; 23 February, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            Render the TreeWeb control.
+            </summary>
+            <param name="writer"></param>
+            <author>
+            Created by Iulian Iuga; 04 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.OnInit(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+            <author>
+            Created by Iulian Iuga; 11 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.SaveViewState">
+            <summary>
+            (IStateManager.SaveViewState)
+            Saves the changes of TreeWeb's view state to an Object.
+            </summary>
+            <returns></returns>
+            <author>
+            Created by Iulian Iuga; 05 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.LoadViewState(System.Object)">
+            <summary>
+            (IStateManager.LoadViewState)
+            Loads the TreeWeb's previously saved view state.
+            </summary>
+            <param name="state"></param>
+            <author>
+            Created by Iulian Iuga; 05 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.TrackViewState">
+            <summary>
+            (IStateManager.TrackViewState)
+            Instructs the TreeWeb to track changes to its view state.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 05 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.ConfigureParsedElements(iiuga.Web.UI.TreeElement)">
+            <summary>
+            
+            </summary>
+            <param name="element"></param>
+            <author>
+            Created by Iulian Iuga; 18 January, 2003
+            </author>
+        </member>
+        <member name="E:iiuga.Web.UI.TreeWeb.Expand">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:iiuga.Web.UI.TreeWeb.Collapse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeWeb.Elements">
+            <summary>
+            Gets the elements collection of the tree.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeWeb.CollapsedElementImage">
+            <summary>
+            Gets or sets the URL to the image that is showen for a collapsed element.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 12 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeWeb.ExpandedElementImage">
+            <summary>
+            Gets or sets the URL to the image that is showen for an expanded element.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 12 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeWeb.Expandable">
+            <summary>
+            Gets or sets the default property, for the Expandable feature.
+            </summary>
+            <author>
+            Created by Andreas Hauri, 28 May, 2005
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeWeb.Indentation">
+            <summary>
+            Gets or sets the indentation per level.
+            </summary>
+            <author>
+            Created by Andreas Hauri, 28 May, 2005
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeWeb.CheckBoxes">
+            <summary>
+            Gets or sets whether check boxes are displayed next to the tree elements
+            in the treeweb control.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 20 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeWeb.Target">
+            <summary>
+            Gets or sets the default target for all tree elements action.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 25 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeWeb.ImageList">
+            <summary>
+            Gets the collection of images urls for the TreeWeb control.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeWeb.DefaultElementCssClass">
+            <summary>
+            Gets or sets the default CssClass for the tree elements.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeWeb.DefaultElementCssClassOver">
+            <summary>
+            Gets or sets the default CssClass for the tree elements when OnMouseOver client event occure.
+            
+            [Not Implemented]
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeWeb.Root">
+            <summary>
+            Gets the tree's root element. (Note: creates the root object on demand)
+            </summary>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeWeb.TreeWriter">
+            <summary>
+            Gets the writer object for the tree.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 04 January, 2003
+            </author>
+        </member>
+        <member name="T:iiuga.Web.UI.TreeWeb.TreeWebEventArgs">
+            <summary>
+            TreeWebEventArgs
+            </summary>
+            <author>
+            Created by Iulian Iuga; 23 February, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeWeb.TreeWebEventArgs.#ctor(iiuga.Web.UI.TreeElement)">
+            <summary>
+            
+            </summary>
+            <param name="element"></param>
+            <author>
+            Created by Iulian Iuga; 23 February, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeWeb.TreeWebEventArgs.Element">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 23 February, 2003
+            </author>
+        </member>
+        <member name="T:iiuga.Web.UI.TreeWeb.TreeWebEventHandler">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 23 February, 2003
+            </author>
+        </member>
+        <member name="T:iiuga.Web.UI._ElementType">
+            <summary>
+            Element types. 
+            The elements can be added at design time or dinamically at run time.
+            
+            Copyright © Iulian Iuga, 2003. All Rights Reserved.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 19 January, 2003
+            </author>
+        </member>
+        <member name="T:iiuga.Web.UI.TreeElement">
+            <summary>
+            Represents a tree element. It is displayed as part of TreeWeb control.
+            
+            Copyright © Iulian Iuga, 2003. All Rights Reserved.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.#ctor">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.#ctor(System.String,System.String)">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 18 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.Expand">
+            <summary>
+            Expand current element, it has effect only if it has elements.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.Collapse">
+            <summary>
+            Collapse current element, it has effect only if it has elements.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.FindElement(System.String)">
+            <summary>
+            Finds a specified child element of current tree element.
+            
+            Note: The search algorithm can be optimized.
+            </summary>
+            <param name="ID">The searched element id.</param>
+            <returns>The child element coresponding to the ID parameter value.</returns>
+            <author>
+            Created by Iulian Iuga; 04 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            
+            </summary>
+            <param name="writer"></param>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.System#Web#UI#IStateManager#SaveViewState">
+            <summary>
+            (IStateManager.SaveViewState)
+            Saves the changes of TreeElement's view state to an Object.
+            </summary>
+            <returns></returns>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.System#Web#UI#IStateManager#TrackViewState">
+            <summary>
+            (IStateManager.TrackViewState)
+            Instructs the TreeElement to track changes to its view state.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.System#Web#UI#IStateManager#LoadViewState(System.Object)">
+            <summary>
+            (IStateManager.LoadViewState)
+            Loads the TreeElement's previously saved view state.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.SetElementID(System.String)">
+            <summary>
+            Internaly sets the element id.
+            </summary>
+            <param name="elementID"></param>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.SetParent(iiuga.Web.UI.TreeElement)">
+            <summary>
+            Internaly sets the node parent.
+            </summary>
+            <param name="parent"></param>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.SetTreeWeb(iiuga.Web.UI.TreeWeb)">
+            <summary>
+            Internaly sets the TreeWeb control which contains the node.
+            </summary>
+            <param name="treeWeb"></param>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+        <member name="M:iiuga.Web.UI.TreeElement.SetLevel(System.Int32)">
+            <summary>
+            Internaly sets the level where the node is in the tree.
+            </summary>
+            <param name="level"></param>
+            <author>
+            Created by Iulian Iuga; 04 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.ID">
+            <summary>
+            Gets the ID of the TreeElement.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.Text">
+            <summary>
+            Gets or sets the text to be displayed for the TreeElement.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 28 December, 2002
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.Elements">
+            <summary>
+            Gets the ElementsCollection for the TreeElement.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 27 December, 2002
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.Parent">
+            <summary>
+            Gets the TreeElement parent object for the current element.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 30 December, 2002
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.TreeWeb">
+            <summary>
+            Gets the TreeWeb object.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 30 December, 2002
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.IsExpanded">
+            <summary>
+            Gets whether the element is expanded or not.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 30 December, 2002
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.HasElements">
+            <summary>
+            Gets whether the element has or not children elements.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 30 December, 2002
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.Level">
+            <summary>
+            Gets the level where the element is in the tree.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 04 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.IsChecked">
+            <summary>
+            Gets whether the element is checked or not.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 05 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.Key">
+            <summary>
+            Gets or sets specific data for the tree element.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 18 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.NavigateUrl">
+            <summary>
+            Gets or sets the action for the tree element.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 18 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.Target">
+            <summary>
+            Gets or sets the target of the tree element action.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 25 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.Expandable">
+            <summary>
+            Gets or sets whether the current element is expandable.
+            </summary>
+            <author>
+            Created by Andreas Hauri, 28 May, 2005.
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.CheckBox">
+            <summary>
+            Gets or sets whether a check box is displayed next to the current element.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 20 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.ToolTip">
+            <summary>
+            Gets or sets the ToolTip display text for the current element.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.Enabled">
+            <summary>
+            Gets or sets whether the current element is enabled or not.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.CssClass">
+            <summary>
+            Gets or sets the default CssClass for an element.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.CssClassOver">
+            <summary>
+            Gets or sets the default CssClass for the element when OnMouseOver client event occure.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 26 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.ImageIndex">
+            <summary>
+            Gets or sets the image index to be showen before the element in the tree.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 2 February, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.ElementWriter">
+            <summary>
+            Gets the writer object for the tree element.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 04 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.ViewState">
+            <summary>
+            Internaly gets the control StateBag object. The StateBag object is case sensitive.
+            </summary>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.ElementType">
+            <summary>
+            Internaly gets or sets the type of the element. (i.e. design time or run time added)
+            </summary>
+            <author>
+            Created by Iulian Iuga; 19 January, 2003
+            </author>
+        </member>
+        <member name="P:iiuga.Web.UI.TreeElement.System#Web#UI#IStateManager#IsTrackingViewState">
+            <summary>
+            
+            </summary>
+            <author>
+            Created by Iulian Iuga; 01 January, 2003
+            </author>
+        </member>
+    </members>
+</doc>

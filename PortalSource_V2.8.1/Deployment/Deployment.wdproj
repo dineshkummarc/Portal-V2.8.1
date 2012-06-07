@@ -1,0 +1,72 @@
+﻿<!-- 
+  Microsoft Visual Studio 2008 Web Deployment Project 
+  http://go.microsoft.com/fwlink/?LinkID=104956
+
+-->
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FBF2681F-DE97-44D1-82BA-023B5BEAA9BB}</ProjectGuid>
+    <SourceWebPhysicalPath>..\Portal</SourceWebPhysicalPath>
+    <SourceWebProject>{37ABC64D-FF0A-498B-A102-3628B9415D76}|C:\inetpub\wwwroot\Portal3\Portal</SourceWebProject>
+    <SourceWebVirtualPath>/Portal</SourceWebVirtualPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\Debug</OutputPath>
+    <EnableUpdateable>false</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>Portal</SingleAssemblyName>
+    <KeyFile>..\Portal\Portal.snk</KeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\Release</OutputPath>
+    <EnableUpdateable>false</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>Portal</SingleAssemblyName>
+    <KeyFile>..\Portal\Portal.snk</KeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\*.snk"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\Modules\RiversideInternetForums\obj\**\*.*"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\Modules\RiversideInternetForums\*.snk"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\Modules\RiversideInternetForums\*.csproj"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\Modules\RiversideInternetForums\*.user"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\Data\Statistics\**\*.*"/>
+    <ExcludeFromBuild Include="$(SourceWebPhysicalPath)\**\CVS\**\*.*"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FCKeditor.net\FredCK.FCKeditorV2.csproj">
+      <Project>{F6F32704-97E0-4006-A474-5A9729C6B1B4}</Project>
+      <Name>FredCK.FCKeditorV2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Portal.API\Portal.API.csproj">
+      <Project>{FF486279-1221-4544-8202-9926F804F273}</Project>
+      <Name>Portal.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Portal\Modules\RiversideInternetForums\RiversideInternetForums.csproj">
+      <Project>{39F1B740-51C6-4B62-901A-646AD4A5ABEE}</Project>
+      <Name>RiversideInternetForums</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TreeWebControl\TreeWebControl.csproj">
+      <Project>{F58F1437-132B-4E84-8285-C08DFE0CA3DB}</Project>
+      <Name>TreeWebControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WebDeployment\v9.0\Microsoft.WebDeployment.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.WebDeployment.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="BeforeMerge">
+  </Target>
+  <Target Name="AfterMerge">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

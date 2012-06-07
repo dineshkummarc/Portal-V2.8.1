@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/Forum/searchresults.ascx" hash="fffffff168ffe8bc" filehash="384719a15445b85f" flags="110000" assembly="Portal" type="ASP.modules_forum_searchresults_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/Forum/searchresults.ascx" />
+    <filedep name="/Portal/Modules/Forum/SearchResults.ascx.cs" />
+  </filedeps>
+</preserve>

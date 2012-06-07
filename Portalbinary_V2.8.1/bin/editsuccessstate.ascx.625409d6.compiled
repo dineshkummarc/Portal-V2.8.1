@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/FormBuilder/EditSuccessState.ascx" hash="fffffff168ffe8bc" filehash="7affb94496a1852a" flags="110000" assembly="Portal" type="ASP.modules_formbuilder_editsuccessstate_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/FormBuilder/EditSuccessState.ascx" />
+    <filedep name="/Portal/Modules/FormBuilder/EditSuccessState.ascx.cs" />
+  </filedeps>
+</preserve>

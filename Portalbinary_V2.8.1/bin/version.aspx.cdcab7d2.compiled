@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Version.aspx" hash="fffffff168ffe8bc" filehash="5d7949f51c538541" flags="110000" assembly="Portal" type="ASP.version_aspx">
+  <filedeps>
+    <filedep name="/Portal/Version.aspx" />
+    <filedep name="/Portal/Version.aspx.cs" />
+  </filedeps>
+</preserve>

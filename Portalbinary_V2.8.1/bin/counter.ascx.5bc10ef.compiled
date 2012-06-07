@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/HitCounter/counter.ascx" hash="fffffff168ffe8bc" filehash="1bc79fa44ea" flags="110000" assembly="Portal" type="ASP.modules_hitcounter_counter_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/HitCounter/counter.ascx" />
+  </filedeps>
+</preserve>

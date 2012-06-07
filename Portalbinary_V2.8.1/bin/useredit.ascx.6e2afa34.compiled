@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/AdminUsers/useredit.ascx" hash="fffffff168ffe8bc" filehash="d4a087f1f0325525" flags="110000" assembly="Portal" type="ASP.modules_adminusers_useredit_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/AdminUsers/useredit.ascx" />
+    <filedep name="/Portal/Modules/AdminUsers/UserEdit.ascx.cs" />
+  </filedeps>
+</preserve>

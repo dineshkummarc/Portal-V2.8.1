@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/RenderTable.aspx" hash="fffffff168ffe8bc" filehash="43eb31e2e98c12f7" flags="110000" assembly="Portal" type="ASP.rendertable_aspx">
+  <filedeps>
+    <filedep name="/Portal/RenderTable.aspx" />
+    <filedep name="/Portal/RenderTable.aspx.cs" />
+  </filedeps>
+</preserve>

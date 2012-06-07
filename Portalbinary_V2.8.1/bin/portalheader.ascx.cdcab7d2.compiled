@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/PortalHeader.ascx" hash="fffffff168ffe8bc" filehash="c3e307c5d50a62ff" flags="110000" assembly="Portal" type="ASP.portalheader_ascx">
+  <filedeps>
+    <filedep name="/Portal/PortalHeader.ascx" />
+    <filedep name="/Portal/PortalHeader.ascx.cs" />
+  </filedeps>
+</preserve>

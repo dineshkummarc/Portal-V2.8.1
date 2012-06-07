@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/PortalTab.ascx" hash="fffffff168ffe8bc" filehash="1388447f9ac02b0" flags="110000" assembly="Portal" type="ASP.portaltab_ascx">
+  <filedeps>
+    <filedep name="/Portal/ModuleFailed.ascx" />
+    <filedep name="/Portal/ModuleFailed.ascx.cs" />
+    <filedep name="/Portal/ModuleHeader.ascx" />
+    <filedep name="/Portal/ModuleHeader.ascx.cs" />
+    <filedep name="/Portal/OverlayMenu.ascx" />
+    <filedep name="/Portal/OverlayMenu.ascx.cs" />
+    <filedep name="/Portal/PortalTab.ascx" />
+    <filedep name="/Portal/PortalTab.ascx.cs" />
+  </filedeps>
+</preserve>

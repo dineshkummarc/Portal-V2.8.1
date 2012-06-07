@@ -1,0 +1,9 @@
+Statistik, welche Dateien heruntergeladen werden.
+
+Beim umbenennen von Verzeichnissen muss die Gültigkeit dess Namens überprüft werden. Es darf noch nicht existieren.
+
+Dateitypen einschränkbar machen
+Maximale Dateigrösse einführen
+Berechtigung vergeben für Rollen (File Upload, File löschen, Ändern...)
+Icons verwalten, sodass bei unbekanntem Dateityp ein Standard-Icon erscheint
+

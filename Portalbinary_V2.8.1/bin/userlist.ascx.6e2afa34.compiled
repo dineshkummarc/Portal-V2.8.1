@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/AdminUsers/userlist.ascx" hash="fffffff168ffe8bc" filehash="f2a84c8a7c8dfc84" flags="110000" assembly="Portal" type="ASP.modules_adminusers_userlist_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/AdminUsers/userlist.ascx" />
+    <filedep name="/Portal/Modules/AdminUsers/UserList.ascx.cs" />
+  </filedeps>
+</preserve>

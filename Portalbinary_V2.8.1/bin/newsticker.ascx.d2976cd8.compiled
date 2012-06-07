@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/Newsticker/newsticker.ascx" hash="fffffff168ffe8bc" filehash="f3e6e8046b193cfb" flags="110000" assembly="Portal" type="ASP.modules_newsticker_newsticker_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/Newsticker/newsticker.ascx" />
+    <filedep name="/Portal/Modules/Newsticker/Newsticker.ascx.cs" />
+  </filedeps>
+</preserve>

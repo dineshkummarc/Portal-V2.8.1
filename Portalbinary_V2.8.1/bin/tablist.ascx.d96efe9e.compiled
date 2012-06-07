@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/TabList/tablist.ascx" hash="fffffff168ffe8bc" filehash="4376ad32394ef4d2" flags="110000" assembly="Portal" type="ASP.modules_tablist_tablist_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/TabList/tablist.ascx" />
+    <filedep name="/Portal/Modules/TabList/TabList.ascx.cs" />
+  </filedeps>
+</preserve>

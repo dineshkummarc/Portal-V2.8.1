@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/ContentScheduler/EditEventState.ascx" hash="fffffff168ffe8bc" filehash="48b1669c84a8caff" flags="110000" assembly="Portal" type="ASP.modules_contentscheduler_editeventstate_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/ContentScheduler/EditEventState.ascx" />
+    <filedep name="/Portal/Modules/ContentScheduler/EditEventState.ascx.cs" />
+  </filedeps>
+</preserve>

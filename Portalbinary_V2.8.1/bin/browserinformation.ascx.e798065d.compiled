@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/BrowserInformation/browserinformation.ascx" hash="fffffff168ffe8bc" filehash="ffffc65c2032ffa3" flags="110000" assembly="Portal" type="ASP.modules_browserinformation_browserinformation_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/BrowserInformation/browserinformation.ascx" />
+  </filedeps>
+</preserve>

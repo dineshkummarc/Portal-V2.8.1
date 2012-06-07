@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feedback>
+  <MailFrom>mail@localhost.net</MailFrom>
+  <MailTo>mail@localhost.net</MailTo>
+  <MailSubject>Feedback from your Homepage</MailSubject>
+  <!-- If empty no mail will be send -->
+  <MailServer></MailServer>
+</Feedback>

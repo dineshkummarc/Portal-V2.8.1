@@ -1,0 +1,438 @@
+BODY
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background: #CBCEE4;
+	height: 78%;
+}
+#container
+{
+	width: 100%;
+	height: 100%;
+}
+#PortalMain
+{
+	border-left: solid 1px #03538F;
+	border-top: solid 1px #03538F;
+	border-right: solid 1px #03538F;
+	background-color: #E1E3F0;
+}
+#PortalHeader
+{
+	background-color: transparent;
+	font-weight: bold;
+	font-size: 28px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.PortalHeaderUserInfo
+{
+	color: #707070; 
+	font-weight: bold; 
+	font-size: 12px; 
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+.PortalHeaderLogoff
+{
+	color: white;
+	font-weight: bold; 
+	font-size: 12px; 
+	font-family: Verdana, Helvetica, sans-serif;
+}
+.PortalHeaderTitle
+{
+	clear:both;
+	color: #707070;
+	background: transparent;
+	font-weight: bold; 
+	font-size: 24px; 
+	font-family: Verdana, Helvetica, sans-serif;
+	padding-bottom: 10px;
+}
+#TabMainMenu
+{
+	float:right;
+}
+
+/* Delimiter between the horizonzal tabs */
+#TabMenuDelimiterHor
+{
+  background: url(../../PortalImages/blank.gif) top left no-repeat;
+  width: 0px;
+  height:0px;
+}
+
+#TabMainMenuContainer
+{
+	height: 30px;
+}
+#TabMenuContainer
+{
+	color: Silver;
+	background: transparent;	
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.TabMenu_Top
+{
+	padding: 0px 0px 0px 5px;
+	margin: 0px 0px 0px 0px;
+}
+.TabMenu_SubTab
+{
+	background-color: #E1E3F0;
+	border-top: solid 1px #03538F;
+	border-left: solid 1px #03538F;
+	border-right: solid 1px #03538F;
+}
+.TabMenu_CurrentTab
+{
+	background-color: #E1E3F0;
+	border-right: solid 1px #03538F;
+	border-left: solid 1px #03538F;
+	border-top: solid 1px #03538F;
+	border-bottom: solid 1px #E1E3F0;
+	padding: 3px 7px 0px 7px;
+}
+.TabMenu_CurrentLink
+{
+	color: #03538F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+.TabMenu_Tab
+{
+	padding: 0px 7px 0px 7px;
+	border-top: solid 0px silver;
+}
+.TabMenu_Link
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #707070;
+}
+.TabPath
+{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: #E1E3F0;
+	color: #03538F;
+	height: 0px;
+}
+.TabPathButton
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: Bold;
+	color: #03538F;
+	background-color: transparent;
+}
+#TabContainer
+{
+	width: 100%;
+	height: 100%;
+}
+.TabLeft
+{
+	width: 242px;
+	vertical-align: top;
+}
+.TabRight
+{
+	width: 242px;
+	vertical-align: top;
+}
+.TabMiddle
+{
+	width: auto;
+	vertical-align: top;
+}
+.TabLeftTwoCol
+{
+	width: 50%;
+	vertical-align: top;
+}
+.TabRightTwoCol
+{
+	width: 50%;
+	vertical-align: top;
+}
+#PortalFooter
+{
+	color: Gray;
+	height: 12px;
+	padding-top: 1px;
+	padding-left: 15px;
+	background-color: transparent;
+	font-weight: normal;
+	border-top: 1px solid #03538F;
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#PortalEditContainer
+{
+	border-left: solid 1px #03538F;
+	border-top: solid 1px #03538F;
+	border-right: solid 1px #03538F;
+	border-bottom: solid 1px #03538F;
+	background-color: #E1E3F0;
+}
+#PortalEditModule
+{
+	margin-left: 100px;	
+	margin-right: 100px;
+}
+.PortalEditPage
+{
+	margin-left: 100px;	
+	margin-right: 100px;	
+}
+#PortalEditTab
+{
+	background-color: #E1E3F0;
+	border-left: 8px solid #03538F;
+	border-top: 8px solid #03538F;
+	border-right: 8px solid #03538F;
+	height: 100%;
+}
+B
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #03538F;
+}
+H1
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #03538F;
+	font-size: 18px;
+}
+H2
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #03538F;
+	font-size: 16px;
+}
+H3
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #03538F;
+	font-size: 14px;
+}
+H4
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #03538F;
+	font-size: 12px;
+}
+IMG
+{
+	border-style: none;
+}
+.Error
+{
+	color: Red;
+	font-weight: bold;
+}
+.Success
+{
+	color: Green;
+	font-weight: bold;
+}
+.Info
+{
+	color: Black;
+	font-weight: bold;
+}
+A
+{
+	color: #707070;
+	text-decoration: none;
+}
+A:hover
+{
+	text-decoration: underline;
+}
+
+A.LinkButton
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #707070;
+	text-decoration: none;
+}
+A:hover.LinkButton
+{
+	color: #707070;
+	text-decoration: underline;
+}
+.ModuleContainer
+{
+	padding: 10px 10px 10px 10px;
+}
+.ModuleTitle
+{
+	background-color: #CBCEE4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #03538F;
+	font-size: 16px;
+	border-left : solid 1px #03538F;
+	border-top: solid 1px #03538F;
+	border-right: solid 1px #03538F;
+	border-bottom: solid 1px #03538F;
+	padding: 2px 5px 2px 5px;
+}
+.ModuleMenu
+{
+	float:right;
+}
+.Module
+{
+	background-color: #F0F0F0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	border-left: solid 1px #03538F;
+	border-right: solid 1px #03538F;
+	border-bottom: solid 1px #03538F;
+	padding: 5px 5px 5px 5px;
+}
+.ListHeader
+{
+	background-color: #CBCEE4;
+	color: Black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.List
+{
+	width:100%;
+	border-collapse:collapse;
+}
+.ListLine
+{
+   font-size: 12px;
+}
+.AlternatingListLine
+{
+	background-color: #DBDEF4;
+	font-size: 12px;
+}
+.Label
+{
+}
+.Data
+{
+}
+.Emph
+{
+	font-style: italic;
+}
+span.NewsTitle
+{
+	font-size: 16px;
+	color: #000000;
+	font-weight:bold;
+}
+
+.OverlayMenuRoot
+{
+	padding: 5px 5px 5px 5px;
+	margin: 2px 2px 2px 2px;
+	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 12px;
+	text-decoration: none;
+	text-align: right;
+}
+.OverlayMenu
+{
+	border: solid 1px #03538F;
+	background-color: #ffffff;
+	width: 150px;
+	padding: 5px 5px 5px 5px;
+}
+.OverlayMenuItem
+{
+	font-family: Arial, Helvetica, sans-serif;
+  	font-size: 12px;
+	text-decoration: none;
+	cursor: hand;
+}
+.OverlayMenuSeparator
+{
+	border: 0;
+	height: 1px;	
+	color: #03538F;
+}
+HR.OverlayMenuSeparator
+{
+	border: 0;
+	height: 1px;	
+	color: #333399;
+}
+TEXTAREA,INPUT
+{
+	font-weight: 400;
+	font-size: 12px;
+	color: black;
+	line-height: 120%; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*  Riverside Internet Forums  */
+.WebSolutionBorder
+{
+    border: 1px #333399 solid; 
+    background-color: #FFFFFF
+}
+.WebSolutionHeader
+{
+    background-color: #03538F;
+    color: white;
+    font-size: 0.7em;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.WebSolutionFormControl
+{
+    font-size: 1.0em;
+	 font-family: Arial, Helvetica, sans-serif;
+}
+.WebSolutionErrorText
+{
+	color: red;
+}
+.WebSolutionQuote
+{
+	border-top: 1px #333399 solid; 
+	border-bottom: 1px #333399 solid; 
+}
+TD.WebSolutionRow
+{
+    background-color: #eef3fb;
+}
+TD.WebSolutionRowHighlight
+{
+    background-color: #D4D9EC;
+}
+/* FileBrowser - Filelist */
+.FileList
+{
+  padding: 0em 0.4em 0em 0em;
+}
+/* Login - Login Button*/
+Input.LoginButton
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	border-width:1px;
+	border-style:Outset;
+	background-color: #E1E3F0; 
+}

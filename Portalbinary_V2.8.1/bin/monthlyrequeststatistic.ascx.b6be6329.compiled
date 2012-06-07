@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/StatisticViewer/MonthlyRequestStatistic.ascx" hash="fffffff168ffe8bc" filehash="4ba32b375b673c1c" flags="110000" assembly="Portal" type="ASP.modules_statisticviewer_monthlyrequeststatistic_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/StatisticViewer/MonthlyRequestStatistic.ascx" />
+    <filedep name="/Portal/Modules/StatisticViewer/MonthlyRequestStatistic.ascx.cs" />
+  </filedeps>
+</preserve>

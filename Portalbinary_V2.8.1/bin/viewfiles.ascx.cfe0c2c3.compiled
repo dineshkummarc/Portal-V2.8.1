@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/FileBrowser/ViewFiles.ascx" hash="fffffff168ffe8bc" filehash="b6a72e4d7ca11a32" flags="110000" assembly="Portal" type="ASP.modules_filebrowser_viewfiles_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/FileBrowser/ViewFiles.ascx" />
+    <filedep name="/Portal/Modules/FileBrowser/ViewFiles.ascx.cs" />
+  </filedeps>
+</preserve>

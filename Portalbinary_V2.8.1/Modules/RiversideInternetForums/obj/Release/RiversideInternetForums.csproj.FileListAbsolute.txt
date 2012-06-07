@@ -1,0 +1,3 @@
+C:\Privat\Entwicklung\Web\Portal3\Portal\bin\RiversideInternetForums.dll
+C:\Privat\Entwicklung\Web\Portal3\Portal\Modules\RiversideInternetForums\obj\Release\ResolveAssemblyReference.cache
+C:\Privat\Entwicklung\Web\Portal3\Portal\Modules\RiversideInternetForums\obj\Release\RiversideInternetForums.dll

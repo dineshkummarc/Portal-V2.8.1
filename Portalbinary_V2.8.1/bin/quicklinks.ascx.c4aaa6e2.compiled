@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/QuickLinks/quicklinks.ascx" hash="fffffff168ffe8bc" filehash="fffff629c442ec05" flags="110000" assembly="Portal" type="ASP.modules_quicklinks_quicklinks_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/QuickLinks/quicklinks.ascx" />
+  </filedeps>
+</preserve>

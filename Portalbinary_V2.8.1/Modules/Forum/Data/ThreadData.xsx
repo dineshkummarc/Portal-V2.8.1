@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Diese Datei wird automatisch vom XML-Schema-Designer generiert. Sie enthält Layoutinformationen für Komponenten auf der Designeroberfläche.-->
+<XSDDesignerLayout layoutVersion="2" viewPortLeft="0" viewPortTop="0" zoom="100">
+    <Thread_XmlElement left="5001" top="3413" width="5291" height="5080" selected="0" zOrder="1" index="0" expanded="1" />
+    <ThreadThread_XmlKeyref left="4250" top="9275" width="503" height="503" selected="0" zOrder="2" />
+</XSDDesignerLayout>

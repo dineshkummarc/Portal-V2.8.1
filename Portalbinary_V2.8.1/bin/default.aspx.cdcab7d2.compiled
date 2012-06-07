@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/default.aspx" hash="fffffff168ffe8bc" filehash="9020e1e28374cbe4" flags="110000" assembly="Portal" type="ASP.default_aspx">
+  <filedeps>
+    <filedep name="/Portal/default.aspx" />
+    <filedep name="/Portal/default.aspx.cs" />
+    <filedep name="/Portal/PortalFooter.ascx" />
+    <filedep name="/Portal/PortalHeader.ascx" />
+    <filedep name="/Portal/PortalHeader.ascx.cs" />
+    <filedep name="/Portal/TabMenu.ascx" />
+    <filedep name="/Portal/TabMenu.ascx.cs" />
+  </filedeps>
+</preserve>

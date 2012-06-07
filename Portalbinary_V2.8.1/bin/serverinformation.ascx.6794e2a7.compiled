@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/ServerInformation/serverinformation.ascx" hash="fffffff168ffe8bc" filehash="7d047a432cceb901" flags="110000" assembly="Portal" type="ASP.modules_serverinformation_serverinformation_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/ServerInformation/serverinformation.ascx" />
+    <filedep name="/Portal/Modules/ServerInformation/ServerInformation.ascx.cs" />
+  </filedeps>
+</preserve>

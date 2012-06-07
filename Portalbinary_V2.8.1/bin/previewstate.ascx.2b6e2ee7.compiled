@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/ContentScheduler/PreviewState.ascx" hash="fffffff168ffe8bc" filehash="de78f97b9e85ae56" flags="110000" assembly="Portal" type="ASP.modules_contentscheduler_previewstate_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/ContentScheduler/PreviewState.ascx" />
+    <filedep name="/Portal/Modules/ContentScheduler/PreviewState.ascx.cs" />
+  </filedeps>
+</preserve>

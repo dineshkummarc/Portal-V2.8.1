@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/HtmlEdit/htmledit.ascx" hash="fffffff168ffe8bc" filehash="719ce747376d738d" flags="110000" assembly="Portal" type="ASP.modules_htmledit_htmledit_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/HtmlEdit/htmledit.ascx" />
+    <filedep name="/Portal/Modules/HtmlEdit/HtmlEdit.ascx.cs" />
+  </filedeps>
+</preserve>

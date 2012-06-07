@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/FormBuilder/EditValidationState.ascx" hash="fffffff168ffe8bc" filehash="871c3db98a7312c0" flags="110000" assembly="Portal" type="ASP.modules_formbuilder_editvalidationstate_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/FormBuilder/EditValidationState.ascx" />
+    <filedep name="/Portal/Modules/FormBuilder/EditValidationState.ascx.cs" />
+  </filedeps>
+</preserve>

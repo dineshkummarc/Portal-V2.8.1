@@ -1,0 +1,282 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FF486279-1221-4544-8202-9926F804F273}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Portal.API</AssemblyName>
+    <AssemblyOriginatorKeyFile>Portal.API.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Portal.API</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Config.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\ColumnLanguageReferences.cs" />
+    <Compile Include="Controls\JSCalendar.cs" />
+    <Compile Include="Controls\LanguageTextBox.cs" />
+    <Compile Include="Controls\LanguageBoundColumn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\LanguageButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\LanguageCheckBox.cs" />
+    <Compile Include="Controls\LanguageCustomValidator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\LanguageDropDownList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\LanguageImageButton.cs" />
+    <Compile Include="Controls\LanguageLabel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\LanguageLinkButton.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\LanguageRegularExpressionValidator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\LanguageRequiredFieldValidator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\LanguageTemplateColumn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\Message.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Crypto.cs" />
+    <Compile Include="Helper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HtmlAnalyzer.cs" />
+    <Compile Include="Language.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Module.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortalDefinition.cs" />
+    <Compile Include="PortalException.cs" />
+    <Compile Include="Principal.cs" />
+    <Compile Include="SerializableDictionary.cs" />
+    <Compile Include="Statistics\Data\LoginStatisticData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LoginStatisticData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics\Data\RequestSummaryData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RequestSummaryData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics\Data\RequestUrlData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RequestUrlData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Statistics\Service\LoginStatisticService.cs" />
+    <Compile Include="Statistics\Service\RequestStatisticService.cs" />
+    <Compile Include="Statistics\Service\StatisticService.cs" />
+    <Compile Include="Statistics\Statistic.cs" />
+    <Compile Include="Statistics\StatisticHelper.cs" />
+    <Compile Include="Statistics\Worker\LoginWorker.cs" />
+    <Compile Include="Statistics\Worker\RequestWorker.cs" />
+    <Compile Include="Statistics\Worker\WorkerBase.cs" />
+    <Compile Include="UrlBuilder.cs" />
+    <Compile Include="UserManagement.cs" />
+    <Compile Include="Users.cs">
+      <DependentUpon>Users.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Users.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Users.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Portal.API.snk" />
+    <None Include="Statistics\Data\LoginStatisticData.xsc">
+      <DependentUpon>LoginStatisticData.xsd</DependentUpon>
+    </None>
+    <None Include="Statistics\Data\LoginStatisticData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LoginStatisticData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Statistics\Data\LoginStatisticData.xss">
+      <DependentUpon>LoginStatisticData.xsd</DependentUpon>
+    </None>
+    <None Include="Statistics\Data\RequestSummaryData.xsc">
+      <DependentUpon>RequestSummaryData.xsd</DependentUpon>
+    </None>
+    <None Include="Statistics\Data\RequestSummaryData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RequestSummaryData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Statistics\Data\RequestSummaryData.xss">
+      <DependentUpon>RequestSummaryData.xsd</DependentUpon>
+    </None>
+    <None Include="Statistics\Data\RequestUrlData.xsc">
+      <DependentUpon>RequestUrlData.xsd</DependentUpon>
+    </None>
+    <None Include="Statistics\Data\RequestUrlData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RequestUrlData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Statistics\Data\RequestUrlData.xss">
+      <DependentUpon>RequestUrlData.xsd</DependentUpon>
+    </None>
+    <None Include="Users.xsc">
+      <DependentUpon>Users.xsd</DependentUpon>
+    </None>
+    <None Include="Users.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Users.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Users.xss">
+      <DependentUpon>Users.xsd</DependentUpon>
+    </None>
+    <None Include="Users.xsx">
+      <DependentUpon>Users.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

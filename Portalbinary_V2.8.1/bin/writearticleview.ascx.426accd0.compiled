@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/Forum/writearticleview.ascx" hash="fffffff168ffe8bc" filehash="35b52ab07133dc7f" flags="110000" assembly="Portal" type="ASP.modules_forum_writearticleview_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/Forum/writearticleview.ascx" />
+    <filedep name="/Portal/Modules/Forum/WriteArticleView.ascx.cs" />
+  </filedeps>
+</preserve>

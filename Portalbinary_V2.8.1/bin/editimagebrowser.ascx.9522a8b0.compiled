@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/ImageBrowser/EditImageBrowser.ascx" hash="fffffff168ffe8bc" filehash="603cb5b976c64df1" flags="110000" assembly="Portal" type="ASP.modules_imagebrowser_editimagebrowser_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/ImageBrowser/ColorPicker.ascx" />
+    <filedep name="/Portal/Modules/ImageBrowser/ColorPicker.ascx.cs" />
+    <filedep name="/Portal/Modules/ImageBrowser/EditImageBrowser.ascx" />
+    <filedep name="/Portal/Modules/ImageBrowser/EditImageBrowser.ascx.cs" />
+  </filedeps>
+</preserve>

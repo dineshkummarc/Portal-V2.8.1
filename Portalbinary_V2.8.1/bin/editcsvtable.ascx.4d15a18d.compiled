@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/CSVTable/editcsvtable.ascx" hash="fffffff168ffe8bc" filehash="8fb306ce6c6" flags="110000" assembly="Portal" type="ASP.modules_csvtable_editcsvtable_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/CSVTable/editcsvtable.ascx" />
+  </filedeps>
+</preserve>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/FormBuilder/EditFormBuilder.ascx" hash="fffffff168ffe8bc" filehash="76a8bfc0f4cba58c" flags="110000" assembly="Portal" type="ASP.modules_formbuilder_editformbuilder_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/FormBuilder/EditFormBuilder.ascx" />
+    <filedep name="/Portal/Modules/FormBuilder/EditFormBuilder.ascx.cs" />
+  </filedeps>
+</preserve>

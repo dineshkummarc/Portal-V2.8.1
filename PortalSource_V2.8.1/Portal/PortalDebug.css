@@ -1,0 +1,26 @@
+.TabLeft
+{
+	border: 1px solid #AAAAFF;
+}
+.TabRight
+{
+	border: 1px solid #AAFFAA;
+}
+.TabMiddle
+{
+	border: 1px solid yellow;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+#PortalFooter
+{
+}
+.ModuleContainer
+{
+	border: solid 1px #FFCCCC;
+	padding: 0;
+}
+.OverlayMenuRoot
+{
+	border: solid 1px #000000;
+}

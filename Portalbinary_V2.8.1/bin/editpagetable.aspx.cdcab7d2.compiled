@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/EditPageTable.aspx" hash="fffffff168ffe8bc" filehash="3e77dc3ec545ac7a" flags="110000" assembly="Portal" type="ASP.editpagetable_aspx">
+  <filedeps>
+    <filedep name="/Portal/EditPageTable.aspx" />
+    <filedep name="/Portal/EditPageTable.aspx.cs" />
+    <filedep name="/Portal/PortalFooter.ascx" />
+    <filedep name="/Portal/PortalHeader.ascx" />
+    <filedep name="/Portal/PortalHeader.ascx.cs" />
+    <filedep name="/Portal/TabMenu.ascx" />
+    <filedep name="/Portal/TabMenu.ascx.cs" />
+  </filedeps>
+</preserve>

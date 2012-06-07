@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/Html/edithtml.ascx" hash="fffffff168ffe8bc" filehash="1eac3b440fe" flags="110000" assembly="Portal" type="ASP.modules_html_edithtml_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/Html/edithtml.ascx" />
+  </filedeps>
+</preserve>

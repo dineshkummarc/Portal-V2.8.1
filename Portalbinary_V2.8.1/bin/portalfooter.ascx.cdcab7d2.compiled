@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/PortalFooter.ascx" hash="fffffff168ffe8bc" filehash="ffffeb1bfb1ddaed" flags="110000" assembly="Portal" type="ASP.portalfooter_ascx">
+  <filedeps>
+    <filedep name="/Portal/PortalFooter.ascx" />
+  </filedeps>
+</preserve>

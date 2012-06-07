@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/AdminPortal/roles.ascx" hash="fffffff168ffe8bc" filehash="6f812166d2283873" flags="110000" assembly="Portal" type="ASP.modules_adminportal_roles_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/AdminPortal/roles.ascx" />
+    <filedep name="/Portal/Modules/AdminPortal/Roles.ascx.cs" />
+  </filedeps>
+</preserve>

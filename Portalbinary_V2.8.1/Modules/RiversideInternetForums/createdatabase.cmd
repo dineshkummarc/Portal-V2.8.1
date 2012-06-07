@@ -1,0 +1,1 @@
+osql -E -i websolution.sql

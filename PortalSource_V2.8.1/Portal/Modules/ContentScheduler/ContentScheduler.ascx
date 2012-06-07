@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ContentScheduler.ascx.cs" Inherits="Portal.Modules.ContentScheduler.ContentScheduler" EnableViewState="false"%>
+<asp:Literal ID="_pageContent" runat="server" EnableViewState="False"></asp:Literal>

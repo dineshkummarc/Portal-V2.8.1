@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RequestSummaryData" targetNamespace="http://tempuri.org/RequestSummaryData.xsd" xmlns:mstns="http://tempuri.org/RequestSummaryData.xsd" xmlns="http://tempuri.org/RequestSummaryData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RequestSummaryData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RequestSummaryData" msprop:Generator_DataSetName="RequestSummaryData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TRequestSummary" msprop:Generator_UserTableName="TRequestSummary" msprop:Generator_RowDeletedName="TRequestSummaryRowDeleted" msprop:Generator_TableClassName="TRequestSummaryDataTable" msprop:Generator_RowChangedName="TRequestSummaryRowChanged" msprop:Generator_RowClassName="TRequestSummaryRow" msprop:Generator_RowChangingName="TRequestSummaryRowChanging" msprop:Generator_RowEvArgName="TRequestSummaryRowChangeEvent" msprop:Generator_RowEvHandlerName="TRequestSummaryRowChangeEventHandler" msprop:Generator_TablePropName="TRequestSummary" msprop:Generator_TableVarName="tableTRequestSummary" msprop:Generator_RowDeletingName="TRequestSummaryRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Month" msprop:Generator_UserColumnName="Month" msprop:Generator_ColumnPropNameInRow="Month" msprop:Generator_ColumnVarNameInTable="columnMonth" msprop:Generator_ColumnPropNameInTable="MonthColumn" type="xs:dateTime" />
+              <xs:element name="RequestCount" msprop:Generator_UserColumnName="RequestCount" msprop:Generator_ColumnPropNameInRow="RequestCount" msprop:Generator_ColumnVarNameInTable="columnRequestCount" msprop:Generator_ColumnPropNameInTable="RequestCountColumn" type="xs:int" />
+              <xs:element name="VisitsCount" msprop:Generator_UserColumnName="VisitsCount" msprop:Generator_ColumnPropNameInRow="VisitsCount" msprop:Generator_ColumnVarNameInTable="columnVisitsCount" msprop:Generator_ColumnPropNameInTable="VisitsCountColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:TRequestSummary" />
+      <xs:field xpath="mstns:Month" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/Quotations/quotations.ascx" hash="fffffff168ffe8bc" filehash="fffffc791202fa8c" flags="110000" assembly="Portal" type="ASP.modules_quotations_quotations_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/Quotations/quotations.ascx" />
+  </filedeps>
+</preserve>

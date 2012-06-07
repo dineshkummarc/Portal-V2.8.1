@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/AdminPortal/adminportal.ascx" hash="fffffff168ffe8bc" filehash="1d6d45516b05cb61" flags="110000" assembly="Portal" type="ASP.modules_adminportal_adminportal_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/AdminPortal/adminportal.ascx" />
+    <filedep name="/Portal/Modules/AdminPortal/AdminPortal.ascx.cs" />
+    <filedep name="/Portal/Modules/AdminPortal/moduleedit.ascx" />
+    <filedep name="/Portal/Modules/AdminPortal/ModuleEdit.ascx.cs" />
+    <filedep name="/Portal/Modules/AdminPortal/modulelist.ascx" />
+    <filedep name="/Portal/Modules/AdminPortal/ModuleList.ascx.cs" />
+    <filedep name="/Portal/Modules/AdminPortal/roles.ascx" />
+    <filedep name="/Portal/Modules/AdminPortal/Roles.ascx.cs" />
+    <filedep name="/Portal/Modules/AdminPortal/tab.ascx" />
+    <filedep name="/Portal/Modules/AdminPortal/Tab.ascx.cs" />
+    <filedep name="/Portal/Modules/AdminPortal/tablist.ascx" />
+    <filedep name="/Portal/Modules/AdminPortal/TabList.ascx.cs" />
+  </filedeps>
+</preserve>

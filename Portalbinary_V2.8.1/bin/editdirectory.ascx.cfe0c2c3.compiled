@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/FileBrowser/EditDirectory.ascx" hash="fffffff168ffe8bc" filehash="ccd028a7b0d0cc0d" flags="110000" assembly="Portal" type="ASP.modules_filebrowser_editdirectory_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/FileBrowser/EditDirectory.ascx" />
+    <filedep name="/Portal/Modules/FileBrowser/EditDirectory.ascx.cs" />
+  </filedeps>
+</preserve>

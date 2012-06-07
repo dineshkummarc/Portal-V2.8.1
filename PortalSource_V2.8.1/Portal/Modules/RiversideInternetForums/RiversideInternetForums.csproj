@@ -1,0 +1,206 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39F1B740-51C6-4B62-901A-646AD4A5ABEE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>RiversideInternetForums</AssemblyName>
+    <AssemblyOriginatorKeyFile>RiversideInternetForums.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>RiversideInternet.WebSolution</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EditRiversideInternetForums.ascx" />
+    <Content Include="RiversideInternetForums.ascx" />
+    <Content Include="websolution.sql" />
+    <Compile Include="Forum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumDB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumForm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumPost.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumPostCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumSearch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumSearchInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumSearchInfoCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumText.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumThread.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumThreadInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumThreadInfoCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumThreads.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForumUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LoginControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="LoginControlObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="User.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserDB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserLogin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserLogoff.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserManagement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ValidAlias.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ValidAvatar.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ValidEmail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ValidPassword.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebSolutionControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebSolutionDB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebSolutionObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebSolutionUtils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RiversideInternetForums.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

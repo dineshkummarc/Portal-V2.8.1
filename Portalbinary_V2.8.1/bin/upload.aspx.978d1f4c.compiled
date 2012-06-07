@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/FCKeditor/editor/filemanager/connectors/aspx/upload.aspx" hash="fffffff168ffe8bc" filehash="352a0115c8dfb0c5" flags="110000" assembly="Portal" type="ASP.fckeditor_editor_filemanager_connectors_aspx_upload_aspx">
+  <filedeps>
+    <filedep name="/Portal/FCKeditor/editor/filemanager/connectors/aspx/config.ascx" />
+    <filedep name="/Portal/FCKeditor/editor/filemanager/connectors/aspx/upload.aspx" />
+  </filedeps>
+</preserve>

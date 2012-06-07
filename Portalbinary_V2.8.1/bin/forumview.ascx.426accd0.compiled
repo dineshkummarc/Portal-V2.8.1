@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/Forum/forumview.ascx" hash="fffffff168ffe8bc" filehash="6d453b09ad482674" flags="110000" assembly="Portal" type="ASP.modules_forum_forumview_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/Forum/forumview.ascx" />
+    <filedep name="/Portal/Modules/Forum/ForumView.ascx.cs" />
+  </filedeps>
+</preserve>

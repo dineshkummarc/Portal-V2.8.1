@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/Feedback/feedback.ascx" hash="fffffff168ffe8bc" filehash="ffffcc7ad6c800e4" flags="110000" assembly="Portal" type="ASP.modules_feedback_feedback_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/Feedback/feedback.ascx" />
+  </filedeps>
+</preserve>

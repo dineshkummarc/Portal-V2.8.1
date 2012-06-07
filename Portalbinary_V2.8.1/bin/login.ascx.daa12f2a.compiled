@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/Login/login.ascx" hash="fffffff168ffe8bc" filehash="ffffca339f63660b" flags="110000" assembly="Portal" type="ASP.modules_login_login_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/Login/login.ascx" />
+  </filedeps>
+</preserve>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/EditModuleTable.aspx" hash="fffffff168ffe8bc" filehash="aa9cab5075329488" flags="110000" assembly="Portal" type="ASP.editmoduletable_aspx">
+  <filedeps>
+    <filedep name="/Portal/EditModuleTable.aspx" />
+    <filedep name="/Portal/EditModuleTable.aspx.cs" />
+    <filedep name="/Portal/Modules/AdminPortal/moduleedit.ascx" />
+    <filedep name="/Portal/Modules/AdminPortal/ModuleEdit.ascx.cs" />
+    <filedep name="/Portal/Modules/AdminPortal/roles.ascx" />
+    <filedep name="/Portal/Modules/AdminPortal/Roles.ascx.cs" />
+    <filedep name="/Portal/PortalFooter.ascx" />
+    <filedep name="/Portal/PortalHeader.ascx" />
+    <filedep name="/Portal/PortalHeader.ascx.cs" />
+  </filedeps>
+</preserve>

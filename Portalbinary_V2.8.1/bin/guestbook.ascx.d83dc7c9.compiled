@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/Portal/Modules/Guestbook/guestbook.ascx" hash="fffffff168ffe8bc" filehash="994fdd01c407fba2" flags="110000" assembly="Portal" type="ASP.modules_guestbook_guestbook_ascx">
+  <filedeps>
+    <filedep name="/Portal/Modules/Guestbook/guestbook.ascx" />
+    <filedep name="/Portal/Modules/Guestbook/Guestbook.ascx.cs" />
+  </filedeps>
+</preserve>
